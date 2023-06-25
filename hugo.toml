@@ -1,7 +1,7 @@
 baseURL = 'https://docko.dev'
 languageCode = 'en-gb'
 title = 'Docko Docs'
-theme = 'ananke'
+theme = 'hugo-book'
 enableGitInfo = true
 
 [params]
