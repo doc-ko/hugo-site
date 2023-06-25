@@ -1,0 +1,4 @@
+= Documentation for Portfolio Website
+
+The docs for this portfolio website is managed using Antora, because why not?
+I already use it to begin with.
