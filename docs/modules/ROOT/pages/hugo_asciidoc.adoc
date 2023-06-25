@@ -1,0 +1,49 @@
+= Configuring Hugo to work with AsciiDoc
+
+== Prerequisites
+
+
+=== Ruby
+// Using RVM specifically during time of writing 2023-06-25
+
+To use AsciiDoc with Hugo, you will need to install Ruby.
+
+[quote]
+.From the https://docs.asciidoctor.org/asciidoctor/latest/install/ruby-packaging[Asciidoc documentation]
+____
+Using Ruby packaging entails making use of commands provided by ruby (`gem` and `bundle`) to install gems.
+A gem is a packaged Ruby application or library, often retrieved from https://rubygems.org[RubyGems.org].
+____
+
+== Asciidoctor
+
+Asciidoctor is the backend converter that Hugo uses to convert AsciiDoc text into HTML.
+
+Run `bundle` in order to install Ruby dependencies (including Asciidoctor)
+
+=== Changes to `hugo.toml`
+
+While Hugo supports AsciiDoc content, this functionality is not enabled out of the box.
+Changes must be made to the security policy in order to allow Asciidoctor to run:
+
+[,toml]
+----
+[security]
+  enableInlineShortcodes = false
+
+  [security.exec]
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^asciidoctor$'] <1>
+    osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|RUBYLIB|GEM_PATH|GO\w+)$'] <2>
+
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$']
+
+  [security.goTemplates]
+    AllowActionJSTmpl = false
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+----
+<1> `^asciidoctor$` has been added to `security.exec.allow`.
+<2> `RUBYLIB` and `GEM_PATH` has been added to `security.exec.osEnv`.
