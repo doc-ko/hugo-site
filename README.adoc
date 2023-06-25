@@ -1,0 +1,8 @@
+= Personal website
+
+This website uses https://gohugo.io[Hugo] and Gitlab Pages to generate a static website.
+Support is also added for the AsciiDoc format.
+
+The theme is https://github.com/alex-shpak/hugo-book[Hugo book].
+
+Find the website at https://docko.dev.
