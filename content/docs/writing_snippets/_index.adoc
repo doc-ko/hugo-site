@@ -1,0 +1,44 @@
+---
+title: 'Writing Examples'
+date: 2023-06-25T22:53:44+12:00
+weight: 10
+bookFlatSection: True
+---
+
+
+== Writing Examples
+
+
+This repository contains some of my technical writing pieces.
+
+=== _API Snippet_
+
+This piece is a description of an OpenAPI specification.
+It is an introduction to a REST API product, detailing authentication and error representation. 
+It also discusses some noteworthy behaviours (e.g. blank response fields being returned as `null`).
+
+After this introduction, you would find a list of endpoints and their descriptions.
+
+NOTE: Company and product names have been genericised.
+Example requests and responses were created for the purpose of this snippet.
+
+To understand where this introduction might fit in, here are some other examples of API documentation:
+
+* https://petstore.swagger.io/[SwaggerHub]
+* https://redocly.github.io/redoc/[Redoc]
+
+
+==== Intended Audience
+Included in the document.
+
+=== _Redoc Output_
+
+xref:/{redoc_output}[Click here to open]
+
+This is an internal process to generating a Redoc output from an OpenAPI specification in SwaggerHub.
+The implementation has been simplified through the use of a PowerShell script.
+
+==== Intended Audience
+Developers familiar with SwaggerHub.
+
+As such, I have not added a troubleshooting section, nor instructions on how to use SwaggerHub.

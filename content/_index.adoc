@@ -1,9 +1,17 @@
 ---
-title: "Work-in-Progress"
+title: "Home Page"
 date: 2023-06-26T00:31:35+12:00
 ---
 
-== Work-in-progress
+== Karl Oberio
 
-This website is currently a work in progress.
+Technical writer and haphazard coder.
+Contact me at yarn@docko.dev or through my socials.
+
+NOTE: This website is currently a work in progress.
 Stay tuned!
+
+=== Socials
+
+* https://linkedin.com/in/docko[Linkedin]
+* https://github.com/doc-ko[Github (doc-ko)]
