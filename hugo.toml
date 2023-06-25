@@ -1,7 +1,14 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+baseURL = 'https://docko.dev'
+languageCode = 'en-uk'
+title = 'Docko Docs'
+theme = 'hugo-book'
+enableGitInfo = true
+
+[params]
+  BookTheme = 'dark'
+  AuthorName = 'Karl Oberio'
+  GitHubUser = 'doc-ko'
+  BookRepo = 'https://github.com/doc-ko/doc-ko.github.io'
 
 [security]
   enableInlineShortcodes = false
