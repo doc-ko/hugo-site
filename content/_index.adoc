@@ -14,6 +14,15 @@ Contact me at yarn@docko.dev or through my socials.
 NOTE: This website is currently a work in progress.
 Stay tuned!
 
+=== About me
+
+(2023-07) Currently dabbling in:
+
+* Linux
+** Using Pop!_OS but looking into NixOS
+* Mechanical keyboards
+* Colony sim games
+
 === Socials
 
 * https://linkedin.com/in/docko[Linkedin]
