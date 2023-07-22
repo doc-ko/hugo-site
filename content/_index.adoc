@@ -19,7 +19,7 @@ Stay tuned!
 (2023-07) Currently dabbling in:
 
 * Linux
-** Using Pop!_OS but looking into NixOS
+** In the state of distro-hopping (Pop!_OS, Linux Mint, soon Arch)
 * Mechanical keyboards
 * Colony sim games
 
