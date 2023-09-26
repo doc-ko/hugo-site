@@ -16,12 +16,10 @@ Stay tuned!
 
 === About me
 
-(2023-07) Currently dabbling in:
+(2023-09) dabbling in:
 
-* Linux
-** In the state of distro-hopping (Pop!_OS, Linux Mint, soon Arch)
-* Mechanical keyboards
-* Colony sim games
+* https://lishogi.org/@/doctorkohaku[Shogi]
+* Linux (currently on Pop!_OS)
 
 === Socials
 
